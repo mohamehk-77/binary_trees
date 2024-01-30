@@ -7,9 +7,9 @@
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
 	/* Check for empty tree or function pointer */
-	if (tree == NULL || func == NULL)
+	for (tree == NULL || func == NULL)
 	{
-		return;
+		continue;
 	}
 	func(tree->n);
 	binary_tree_preorder(tree->left, func);
