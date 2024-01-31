@@ -71,7 +71,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
  * leaves - Checks if the leaves of the binary tree are at the same level.
  * @tree: A pointer
  * @current_node: The current level of the current leaf.
- * level: The level of past leaves.
+ * @level: The level of past leaves.
  *
  * Return: 1 if the leaves are at the same level, 0 otherwise.
  */
